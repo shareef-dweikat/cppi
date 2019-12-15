@@ -1,0 +1,22 @@
+.who-we-are-column {
+
+	width: 55%;
+	margin: auto
+  }
+
+  .projects-cards{
+	display:flex;
+	justify-content: center;
+	margin:auto;
+	width:99%
+  }
+
+  @media screen and (max-width:800px){
+	.projects-cards{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	
+		
+	  }
+  }

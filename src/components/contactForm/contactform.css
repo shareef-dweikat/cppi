@@ -1,0 +1,60 @@
+.who-we-are-column {
+
+	width: 55%;
+	margin: auto
+  }
+
+.contact-form-background{
+	height: 55vw;
+	background-image: url('../../imgs/CONTACT-FORM.png');
+	background-attachment: fixed;
+}
+.contact-us-title{
+	color:white;
+	text-align:center;
+	font-size:5vw;
+
+}
+.form-padding{
+	padding:120px;
+	padding-top:100px
+}
+
+  @media screen and (max-width:900px){
+	.contact-us-title{
+	
+		font-size:6vw
+	}
+	.contact-form-background{
+	
+		background-image:none
+		
+	}
+	.form-padding{
+		padding:50px;
+		padding-top:30px
+	}
+  }
+
+  ::-webkit-input-placeholder { /* Edge */
+	color: white;
+	font-weight: bold;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: white;
+	font-weight: bold;
+  }
+  
+  ::placeholder {
+	color: white;
+	font-weight: bold;
+  }
+  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: white;
+	font-weight: bold;
+ }
+ ::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: white;
+	font-weight: bold;
+ }
