@@ -11,6 +11,7 @@ import AboutPage from './pages/about/AboutPage';
 import Blog from './pages/Blog/Blog';
 import BlogDetails from './pages/Blog/BlogDetails';
 import Contact from './pages/Contact/Contact';
+import Projects from './pages/Projects/Projects';
 
 
 ReactDOM.render(
@@ -21,6 +22,7 @@ ReactDOM.render(
               <Route exact path='/blog' component={Blog}/>
               <Route exact path='/blogDetails' component={BlogDetails}/>
               <Route exact path='/contact' component={Contact}/>
+              <Route exact path='/projects' component={Projects}/>
 
               <Footer/>
           </BrowserRouter>
